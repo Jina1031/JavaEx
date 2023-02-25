@@ -6,14 +6,9 @@ package ch02.unit3;
 public class Ex01_print {
 
 	public static void main(String[] args) {
-//		System.out.print(); //컴파일 오류. 괄호안에 인수가 필요
-		System.out.print("HTML5, ");
-		System.out.print("CSS3, ");
-		System.out.print("javascript");
-		//java와 javascript의 사이를 벌리고 싶을 때 
-//방법1		System.out.print("\n");
-		System.out.print("Java");
-		
+//java와 javascript의 사이를 벌리고 싶을 때 
+//방법1		System.out.print("\n"); //라인 넘기기
+//방법2		System.out.print("\t"); // tab으로 간격 벌리기
 		System.out.print("Java\n\nJsp\nServlet");
 		System.out.print("\nSpring\n\n"); //\n\n은 한줄의 공백이 생김
 		
